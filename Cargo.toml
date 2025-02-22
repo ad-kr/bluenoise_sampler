@@ -1,7 +1,12 @@
 [package]
 name = "bluenoise_sampler"
+description = "Precomputed blue noise for fast sampling"
 version = "0.1.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ad-kr/bluenoise_sampler"
 edition = "2024"
+keywords = ["blue noise", "poisson disk sampling", "noise"]
+categories = ["graphics", "algorithms"]
 
 [dependencies]
 rayon = "1.10.0"
